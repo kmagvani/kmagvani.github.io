@@ -1,0 +1,593 @@
+.header{
+    width: 100%;
+    border-bottom: 2px solid silver;
+    z-index: 1;
+    position: fixed;
+    background: white;
+}
+
+.header-container{
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.heading{
+    display: inline-block;
+    width: 25%;
+    margin: 30px 0;
+}
+
+.head-left{
+    text-align: left;
+    width: 40%;
+    /*margin: 18px 0;*/
+}
+
+.logo-img{
+    width: 65%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.head-left a{
+    text-decoration:none;
+    color:black;
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+}
+
+.head-left img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.head-left p{
+    /*text-align: center;*/
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    margin-left: 2%;
+    vertical-align: -webkit-baseline-middle;
+    color:gray;
+}
+
+.center-logo{
+    width: 12%;
+    margin: 0px 0;
+    position: relative;
+    text-align: center;
+}
+
+.center-logo img, .center-logo svg{
+    width: 45px;
+    position: absolute;
+    text-align: center;
+    border-bottom: 2px solid silver;
+    border-radius: 50px;
+    background: white;
+    height: 45px;
+    padding: 5px;
+    left: 70%;
+    margin-top: 15px;
+}
+
+.head-right{
+    width: 40%;
+    text-align: center;
+    float: right;
+    margin: 33px 0 0;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.item{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.item a{
+    text-decoration: none;
+    color: black;
+}
+
+.selected{
+    background: #00bed6;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 15px;
+    width: 30%;
+    margin-right: 11px;
+}
+
+.selected a{
+    color: white;
+}
+
+.chat-body{
+    /*background: linear-gradient(to bottom, rgb(194, 201, 215), rgb(229, 233, 242), white);*/
+    background: linear-gradient(to bottom, rgb(194, 201, 215), white);
+    padding: 12% 0 0%;
+    z-index: 0;
+    /*border-bottom: 2px solid silver;*/
+    /*box-shadow: 0px 0px 20px silver;*/
+}
+
+.phone-container{
+    width: 100%;
+    position: relative;
+    /*font-family: CenturyGothic;*/
+}
+
+.phone{
+    width: 100%;
+    position: relative;
+}
+
+.chat-container{
+    /*overflow: scroll;*/
+    width: 50%;
+    margin: 0px auto;
+    height: 500px;
+}
+
+.chat{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.chat-header{
+    margin: 0 auto;
+    background: #66bdab;
+    position: absolute;
+    top: 53px;
+    width: 291px;
+    left: 13px;
+}
+
+.header-img{
+    width: 17%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-img img{
+    width: 100%;
+}
+
+.header-text{
+    display: inline-block;
+    font-size: 17px;
+    color: white;
+}
+
+.left-chat{
+    margin: 20px 5px 10px;
+    width: 100%;
+}
+
+/*.left-chat img{
+	display: inline-block;
+    width: 98%;
+    vertical-align: bottom;
+    margin-top: 10px;
+}*/
+
+.left-chat-text{
+	/*background: #00bed6;*/
+    background: #0081c9;
+    padding: 13px 10px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    color: white;
+    line-height: 20px;
+    max-width: 45%;
+    text-align: center;
+}
+
+.right-chat{
+	width: 100%;
+    float: right;
+}
+
+.right-chat-text{
+	/*background: #66BDAB;*/
+    background: rgba(0, 190, 214, 0.6);
+    width: 45%;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    float: right;
+    margin-right: 5px;
+    text-align: left;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 13px 10px;
+    text-align: center;
+}
+
+.about{
+    border-bottom: 2px solid silver;
+}
+
+.about-container{
+    margin: 7% auto;
+    width: 70%;
+    text-align: center;
+}
+
+.about-header{
+    color: #ff6700;
+    font-size: 30px;
+}
+
+.about-sub-header{
+    margin: 32px 0;
+    font-size: 18px;
+    color: #302f2f;
+}
+
+.about-container p{
+    color: #302f2f;
+    width: 75%;
+    margin: 32px auto;
+    line-height: 22px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.download{
+    background: linear-gradient(to bottom, rgb(138, 138, 138), rgb(156, 159, 163), white);
+}
+
+.download-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+.download-header{
+    text-align: center;
+}
+
+.download-header-text{
+    font-size: 30px;
+    color: white;
+}
+
+.download-sub-header{
+    margin: 20px 0;
+    color: white;
+    font-size: 16px;
+}
+
+.buttons-container{
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.buttons{
+    width: 20%;
+    display: inline-block;
+}
+
+.button-img{
+    width: 45%;
+    margin: 0 auto;
+    background: rgb(41, 63, 83);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.button-img svg{
+    width: 70%;
+}
+
+.buttons p{
+    margin-top: 15px;
+    color: #ff7600;
+}
+
+.overlay{
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.hide{
+    display: none;
+}
+
+.email-popup{
+    position: fixed;
+    top: 30%;
+    width: 60%;
+    z-index: 3;
+    left: 0;
+    text-align: center;
+    background: linear-gradient(to bottom, silver, white);
+    margin-left: 20%;
+    border-radius: 5px;
+}
+
+.popup-header{
+    margin: 1% 0 5%;
+    text-align: right;
+    width: 98%;
+    font-size: 20px;
+}
+
+.popup-header p{
+    width: 2%;
+    float: right;
+    cursor: pointer;
+}
+
+.input-email{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.popup-text{
+    color: black;
+    text-align: left;
+}
+
+.input-email input{
+    margin: 3% 0 5%;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+
+.submit-button-container{
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.submit-button{
+    width: 20%;
+    float: right;
+    background: #00bed6;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.success-msg p{
+    margin: 5% 0;
+    color: #36b302;
+}
+
+.footer{
+    width: 100%;
+    background: white;
+    border-top: 1px solid WHITE;
+}
+
+.footer-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-container p{
+    padding: 20px;
+    text-align: right;
+}
+
+.logo-gif{
+    display:inline-block;
+    width:12%;
+}
+
+.logo-margin{
+    margin-left: -11%;
+}
+
+.links{
+    display: none;
+}
+
+@media only screen and (max-device-width: 1000px){
+    .header-container{
+        width: 95%;
+    }
+
+    .logo-img{
+        width: 100%;
+    }
+
+    .logo-img a{
+        width: 55%;
+    }
+
+    .logo-img p{
+        font-size: 25px;
+    }
+
+    .head-left{
+        width: 45%;
+    }
+
+    .center-logo{
+        width: 0%;
+    }
+
+    .center-logo svg{
+        width: 70px;
+        height: 70px;
+        margin-top: 8px;
+    }
+
+    .head-right{
+        width: 40%;
+        margin-top: 30px;
+        text-align: right;
+    }
+
+    .item{
+        width: 25%;
+    }
+
+    .selected{
+        width: 50%;
+        padding: 20px;
+        font-size: 30px;
+        margin-right: 0px;
+    }
+
+    .extra{
+        display: none;
+    }
+
+    .chat-container {
+        overflow: scroll;
+        width: 90%;
+        margin: 0px auto;
+        /*height: 550px;*/
+        /*height: 1000px;*/
+    }
+
+    .chat-body{
+        padding: 20% 0 0;
+    }
+
+    .left-chat{
+        margin: 0px 0 10px;
+    }
+
+    .left-chat-text{
+        width: 70%;
+        margin-top: 10px;
+        font-size: 40px;
+        padding: 25px 20px;
+        line-height: 40px;
+        max-width: 70%;
+    }
+
+    .right-chat{
+        margin-top: 10px;
+    }
+
+    .right-chat-text{
+        width: 70%;
+        font-size: 40px;
+        padding: 25px 20px;
+        line-height: 40px;
+    }
+
+    .logo-gif{
+        display:inline-block;
+        width: 20%;
+    }
+
+    .logo-margin{
+        margin-left: -21%;
+    }
+
+    .about-container{
+        width: 90%;
+        margin: 10% auto;
+    }
+
+    .about-container p{
+        font-size: 35px;
+        width: 90%;
+        line-height: 55px;
+    }
+
+    .about-header{
+        font-size: 75px;
+    }
+
+    .download-header-text{
+        font-size: 75px;
+    }
+
+    .download-sub-header{
+        font-size: 35px;
+    }
+
+    .buttons-container {
+        width: 60%;
+        text-align: center;
+        margin: 5% auto;
+    }
+
+    .buttons {
+        width: 45%;
+        display: inline-block;
+        margin-bottom: 10%;
+    }
+
+    .button-img{
+        width: 80%;
+    }
+
+    .button-img svg{
+        width: 90%;
+        height: 12%;
+    }
+
+    .buttons p{
+        font-size: 35px;
+    }
+
+    .footer-container p{
+        font-size: 35px;
+        text-align: center;
+        padding: 20px 0 40px;
+    }
+
+    .links{
+        font-size: 35px;
+        display: inline-block;
+        margin: 0 auto;
+        width: 30%;
+        text-align: left;
+    }
+
+    .links a{
+        font-size: 35px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .email-popup{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .popup-header{
+        font-size: 40px;
+    }
+
+    .popup-text{
+        font-size: 35px;
+    }
+
+    #emailId{
+        font-size: 35px;
+    }
+
+    .submit-button{
+        width: 30%;
+        padding: 20px;
+        font-size: 35px;
+        margin-left: 64%;
+        float: none;
+    }
+}
